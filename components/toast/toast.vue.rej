@@ -1,0 +1,9 @@
+diff a/components/toast/toast.vue b/components/toast/toast.vue	(rejected hunks)
+@@ -58,6 +58,7 @@
+ 
+ <style>
+ 	.tui-toast {
++		z-index: 99999;
+ 		background: rgba(0, 0, 0, 0.75);
+ 		border-radius: 10rpx;
+ 		position: fixed;
